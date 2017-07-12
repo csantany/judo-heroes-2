@@ -52,8 +52,7 @@ server.listen(port, (err) => {
     return console.error(err);
   }
   return console.info(
-    `
-      Server running on http://localhost:${port} [${env}]
+    `Server running 222 on http://localhost:${port} [${env}]
       Universal rendering: ${process.env.UNIVERSAL ? 'enabled' : 'disabled'}
     `);
 });
